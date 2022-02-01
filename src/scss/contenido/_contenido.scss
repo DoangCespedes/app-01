@@ -1,0 +1,21 @@
+@import '../base/variables';
+
+.header {
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	background: $azul;
+	color: $negro;
+    display: flex;
+    justify-content: space-around;
+}
+.header__titulo {
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.header__subTitulo {
+	font-weight: 400;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}

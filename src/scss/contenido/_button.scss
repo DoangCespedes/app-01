@@ -1,0 +1,18 @@
+@import '../base/variables';
+
+.btn {
+    background-color: $dark-grey;
+    border-radius: 8px;
+    color: $blanco;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 10px 15px 10px 15px;
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        color: darken($color: white, $amount: 10);
+    }
+    
+}

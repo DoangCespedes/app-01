@@ -1,0 +1,14 @@
+@import '../base/variables';
+
+.input__text {
+	margin-top: 5px;
+    width: 47%;
+    border: 0px;
+    border-bottom: 1px solid $light-grey;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+	align-items: center;
+	padding: 5px;
+	box-shadow: 0 2px 10px rgba(139,139,139,.25);
+}

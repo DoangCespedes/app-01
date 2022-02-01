@@ -1,0 +1,38 @@
+@import '../base/variables';
+
+.table{
+	
+    font-family: 'Roboto', sans-serif;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+.table__head{
+	border:1px solid #000000;
+    background: $blanco2;
+	align-items: center;
+	height: 40px;
+	border-radius: 3px 3px 0px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+    
+}
+
+.table__cell {
+	border:1px solid #000000;
+	padding: 20px;
+	border-radius: 3px 3px 0px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+table tr:hover{
+	background-color: $light-grey;
+}
+.table__cell:hover{
+	background-color: $dark-grey;
+	color: $blanco;
+}
+table td :hover{
+	background-color: $blanco;
+	color: $dark-grey;
+}

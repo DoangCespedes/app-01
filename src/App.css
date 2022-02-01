@@ -1,0 +1,105 @@
+:root {
+	--blanco: #fff;
+	--azul: #96a9bb;
+	--blanco2: #f5f5f5
+}
+
+/* * --- --- ---  HEADER --- --- --- */
+.header {
+	display: grid;
+	grid-template-rows: auto auto 1fr;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	overflow: auto;
+	box-shadow: 0 2px 10px rgba(139,139,139,.25);
+	border-radius: 3px;
+	padding: 30px;
+	background: var(--azul);
+	color: var(--blanco);
+	border-radius: 3px 3px 0px 0px;	
+}
+
+.header__titulo {
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.header__subTitulo {
+	font-weight: 400;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* --- --- --- --- FORMULARIOS --- ------------------- */
+.input__text {
+	display: flex;
+	justify-content: inline;
+	margin-top: 10px;
+	margin-left: 230px;
+	margin-right: 50px;
+	width: 60%;
+	align-items: center;
+	position: relative;
+	padding: 10px;
+	
+	box-shadow: 0 2px 10px rgba(139,139,139,.25);
+}
+
+.table{
+	
+    font-family: 'Roboto', sans-serif;
+	border: 1px solid #000;
+	border-collapse: collapse;
+
+}
+
+.table__head{
+	border:1px solid #000000;
+    background: var(--blanco2);
+	align-items: center;
+	height: 40px;
+	border-radius: 3px 3px 0px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+    
+}
+/* --- --- --- --- --- --- TABLE BODY --- --- --- --- --- --- --- */
+
+.table__cell {
+	border:1px solid #000000;
+	padding: 20px;
+	border-radius: 3px 3px 0px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+table tr:hover{
+	background-color: #ccc;
+}
+.table__cell:hover{
+	background-color: #000;
+	color: #fff;
+}
+table td :hover{
+	background-color: #fff;
+	color: #000;
+}
+
+/* --- --- --- Media Query --- --- ---  */
+@media screen and (max-width: 468px) {
+	.header {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+	}
+	
+	.header__titulo {
+		font-weight: 400;
+		font-size: 22px;
+	}
+	.contenedor{
+		font-weight: 100;
+		font-size: 12px;
+	}
+}

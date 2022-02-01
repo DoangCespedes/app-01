@@ -1,0 +1,31 @@
+@import '../base/variables';
+
+@media screen and (max-width: 555px) {
+	.header {
+		display: block;
+		align-items: center;
+	}
+
+    .input__text{
+        display: block;
+		align-items: center;
+        width: 100%;
+        margin-right: 20px;
+    }
+	
+	.header__titulo {
+		font-weight: 400;
+		font-size: 28px;
+	}
+    .header__subTitulo {
+		font-size: 22px; 
+    }
+
+    .table__head{
+        font-size: 10px;
+    }
+    .table__cell{
+        font-size: 8px;
+    }
+	
+}

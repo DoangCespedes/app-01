@@ -1,0 +1,32 @@
+@import './variables';
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: $fuente_principal;
+    font-size: 1.6rem;
+}
+
+p{
+    font-size: 2rem;
+    color: $negro;
+}
+
+h1,h3{
+    margin: 0 0 5rem 0;
+}
+h1{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
+}
