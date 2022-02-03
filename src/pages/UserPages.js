@@ -71,6 +71,11 @@ const handleChange = (e) =>{
                 <Table 
                   users={users}
                   setUser={setUser}
+                  title={user.title}
+                  body={user.body}
+                  setUsers={setUsers}
+                  onChange={handleChange}
+                  
                 />
                 
             </div>
